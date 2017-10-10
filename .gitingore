@@ -1,0 +1,23 @@
+pi@raspberrypi ~/project/test
+$ touch test.m
+pi@raspberrypi ~/project/test
+$ git init
+Reinitialized existing Git repository in /home/pi/project/test/.git/
+pi@raspberrypi ~/project/test
+$ git add .
+pi@raspberrypi ~/project/test
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#       new file:   test.m
+#
+pi@raspberrypi ~/project/test
+$ git commit -m "Add my test.m file"
+[master (root-commit) 268d2df] Add my test.m file
+ 0 files changed
+ create mode 100644 test.m
